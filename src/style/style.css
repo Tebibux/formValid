@@ -13,12 +13,12 @@
 form{
 	width:330px;
 	background-color: rgba(237, 237, 237, 0.886);
-	height: 375px;
+	height: 400px;
 	border-radius: 5px;
 	box-shadow: 0px 0px 4px 3px rgba(56, 56, 55, 0.307);
 	display: grid;
-	grid-template-rows: repeat(5, 1fr) .6fr;
-	row-gap: 5px;
+	grid-template-rows: repeat(6, 1fr) .6fr;
+	row-gap: 8px;
 	justify-items: center;
 }
 form > div {
@@ -52,6 +52,14 @@ input{
 	display: block;
 	border-radius: 4px;	
 }
+#username:valid{
+	border: green solid 2px;
+
+}
+/* #username:invalid{
+	border: red solid 2px;
+} */
+
 button{
 	background: #0cb2ffb2;
 	border-radius: 4px;
