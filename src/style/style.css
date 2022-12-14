@@ -59,7 +59,9 @@ input{
 /* #username:invalid{
 	border: red solid 2px;
 } */
-
+.messageBox{
+	padding: 8px;
+}
 button{
 	background: #0cb2ffb2;
 	border-radius: 4px;
